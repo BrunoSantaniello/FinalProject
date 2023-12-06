@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class End : MonoBehaviour
 {
-    //Load level 1 after colliding with an object with the tag "End"
+    //Load Ending Scene after colliding with an object with the tag "End"
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("End"))
