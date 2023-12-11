@@ -12,11 +12,12 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Display instructional messages in the console
+        // Instructional messages in the console
         Debug.Log("Use WASD to move your character around");
         Debug.Log("Avoid obstacles at all cost");
         Debug.Log("Press L to destroy some obstacles");
         Debug.Log("Hit the last wall to go to Level 2!");
+        Debug.Log("Press F5 if you want to reset.");
         Debug.Log("Good Luck :)");
 
         // Set the initial movement speed
